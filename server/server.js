@@ -7,10 +7,8 @@ const schema = require("./schema/schema");
 
 const app = express();
 
-// Replace with your mongoLab URI
-// username : khi, password: AEpEgAfmv4PHsXhj, my ip address: 110.35.135.216/32
 const MONGO_URI =
-  "mongodb+srv://est:2ssPEA35wSMPgFbV@cluster0.s02x9xr.mongodb.net/?retryWrites=true&w=majority";
+  "";
 if (!MONGO_URI) {
   throw new Error("You must provide a MongoLab URI");
 }
